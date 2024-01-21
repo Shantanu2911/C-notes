@@ -17,10 +17,6 @@ C++ is a general-purpose programming language that was developed as an enhanceme
 - Standard Template Library (STL): The STL provides a wide range of containers and algorithms for working with data, making it easier to write efficient and effective code.
 - Exception Handling: C++ provides robust exception handling capabilities, making it easier to write code that can handle errors and unexpected situations.
 
-![image](https://github.com/Shantanu2911/Notes/assets/143939657/fd3e8cb6-6c6f-4674-a74d-d9a258382566)
-
-![image](https://github.com/Shantanu2911/Notes/assets/143939657/4bdd6a1b-852a-4a51-ad6f-4afc380c4375)
-
 ![image](https://github.com/Shantanu2911/Notes/assets/143939657/bd03ca38-c069-4ca1-8067-711acd4924ac)
 
 ## Advantages of C++ :
@@ -46,4 +42,8 @@ C++ is a general-purpose programming language that was developed as an enhanceme
 
 ## INSTALLATION
 ![image](https://github.com/Shantanu2911/Notes/assets/143939657/6f4b7cbb-dbbd-4a1a-92ea-4371567cc15a)
+
+## First-Code in C++
+
+
 
