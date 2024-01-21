@@ -45,5 +45,27 @@ C++ is a general-purpose programming language that was developed as an enhanceme
 
 ## First-Code in C++
 
+```
+// C++ Program to display "Hello, World!"
+#include <iostream>
+using namespace std;
 
+int main()
+{
+   cout << "Hello, World!";
 
+   return 0;
+}
+
+```
+### **Output**
+
+![image](https://github.com/Shantanu2911/Notes/assets/143939657/e399a4c4-f3f2-4609-a937-72a05ef4294d)
+
+- **// C++ program to display “Hello World”** : This line is a comment line.
+- **#include** : This is a preprocessor directive. #include<iostream> tells the compiler to include the standard iostream file which contains declarations of all the standard input/output library functions
+- **using namespace std** : This is used to import the entity of the std namespace into the current namespace of the program. The statement using namespace std is generally considered a bad practice. When we import a namespace we are essentially pulling all type definitions into the current scope.The std namespace is huge. The alternative to this statement is to specify the namespace to which the identifier belongs using the scope operator(::) each time we declare a type. For example, std::cout.
+- **int main() { }** : A function is a group of statements that are designed to perform a specific task. The main() function is the entry point of every C++ program, no matter where the function is located in the program.
+- **cout<<“Hello World”;** : std::cout is an instance of the std::ostream class, that is used to display output on the screen. Everything followed by the character << in double quotes ” ” is displayed on the output device. The semi-colon character at the end of the statement is used to indicate that the statement is ending there.
+- **return 0** : This statement is used to return a value from a function and indicates the finishing of a function. This statement is basically used in functions to return the results of the operations performed by a function.
+- **Indentation** : We must always use indentations and comments to make the code more readable. 
