@@ -43,3 +43,7 @@ C++ is a general-purpose programming language that was developed as an enhanceme
 - Error-Prone
 
 ![image](https://github.com/Shantanu2911/Notes/assets/143939657/65c3f32f-cedb-446e-8e48-afb79d38bf7c)
+
+## INSTALLATION
+![image](https://github.com/Shantanu2911/Notes/assets/143939657/6f4b7cbb-dbbd-4a1a-92ea-4371567cc15a)
+
