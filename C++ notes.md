@@ -69,3 +69,20 @@ int main()
 - **cout<<“Hello World”;** : std::cout is an instance of the std::ostream class, that is used to display output on the screen. Everything followed by the character << in double quotes ” ” is displayed on the output device. The semi-colon character at the end of the statement is used to indicate that the statement is ending there.
 - **return 0** : This statement is used to return a value from a function and indicates the finishing of a function. This statement is basically used in functions to return the results of the operations performed by a function.
 - **Indentation** : We must always use indentations and comments to make the code more readable. 
+
+## Basic of Syntax
+
+![image](https://github.com/Shantanu2911/Notes/assets/143939657/646728ca-157c-4539-a75d-df6d015c7d6c)
+
+- __Header File__ : The header files contain the definition of the functions and macros we are using in our program. They are defined on the top of the C++ program.
+
+  Syntax :
+  ```
+  #include <library_name>
+  ```
+- 
+
+
+
+
+
