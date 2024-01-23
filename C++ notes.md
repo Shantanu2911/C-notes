@@ -80,7 +80,45 @@ int main()
   ```
   #include <library_name>
   ```
-- 
+
+- **Namespace** : A namespace in C++ is used to provide a scope or a region where we define identifiers. It is used to avoid name conflicts between two identifiers as only unique names can be used as identifiers.
+
+  Syntax :
+  ```
+  using namespace std;
+  ```
+
+- **Main Function** : The main function is the most important part of any C++ program. The program execution always starts from the main function. All the other functions are called from the main function. In C++, the main function is required to return some value indicating the execution status.
+
+  Syntax :
+  ```
+  int main() {
+
+    ... code ....
+    return 0;
+  }
+  ```
+- **Blocks** :  Blocks are the group of statements that are enclosed within { } braces. They define the scope of the identifiers and are generally used to enclose the body of functions and control statements.
+
+  Syntax :
+  ```
+  {
+      
+  // Body of the Function
+  
+    return 0;
+  }
+  ```
+  
+ - **Semicolons** : It is used to terminate each line of the statement of the program. When the compiler sees this semicolon, it terminates the operation of that line and moves to the next line.
+
+  Syntax :
+  ```
+ any_statement ;
+  ```
+
+
+
 
 
 
