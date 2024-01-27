@@ -116,6 +116,53 @@ int main()
   ```
  any_statement ;
   ```
+## __DATATYPES__ :
+- **PRIMITIVE**
+    - __Integer__
+        - Size - 4 bytes 
+        - Eg : 1, 4, 100
+        - Range [unsigned] (0 to 2<sup>32</sup> - 1)
+        - Range [signed] (- 2<sup>31</sup> to 2<sup>31</sup> - 1) (using MSB(mosy significant bit) as sign)
+          
+          ![image](https://github.com/Shantanu2911/Notes/assets/143939657/358d8de3-0f2f-4f39-8b26-9be26616beb6)
+          ![image](https://github.com/Shantanu2911/Notes/assets/143939657/0248531d-fcc0-43ee-a284-d9ddda62226d)
+
+    - __Float__       Eg : 3.14, 6.5, 1.00
+       -   Size - 4 byte
+       -   __DOUBLE__ - Size 8 byte
+          ![image](https://github.com/Shantanu2911/Notes/assets/143939657/69f0e715-270b-43c2-bffb-b4dc92291380)
+
+    - __Character__
+       - Size - 1 byte
+       - Eg : c, f, @, %
+         
+           ![image](https://github.com/Shantanu2911/Notes/assets/143939657/bd17c299-bc10-42ee-a2d9-a70d3786623c)
+
+    - __Booleam__
+        - Eg : 0, 1
+        - Size 1 byte
+
+          ![image](https://github.com/Shantanu2911/Notes/assets/143939657/baed3ee7-47b3-43df-a7bd-6f8bf875660a)
+
+_LETS TRY IT OUT :_
+   ![image](https://github.com/Shantanu2911/Notes/assets/143939657/426f59b3-2445-451d-9700-8d4804971ced)
+_OUTPUT :_
+   ![image](https://github.com/Shantanu2911/Notes/assets/143939657/271745ec-f365-4ed5-a8da-f4a069b5344f)
+
+### Type Modifiers : 
+![image](https://github.com/Shantanu2911/Notes/assets/143939657/36df7c42-8f54-4e42-942d-4c6c0aea19ca)
+
+- **DERIVED**
+    - Function
+    - Array
+    - Pointer
+    - Reference
+- **USER-DEFINED**
+    - Class
+    - Structure
+    - Union
+    - Enum
+
 
 
 
