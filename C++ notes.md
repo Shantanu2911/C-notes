@@ -179,7 +179,34 @@ _OUTPUT :_
 
 ### **Do While Loop V/s While Loop:**
 ![image](https://github.com/Shantanu2911/Notes/assets/143939657/d30cff12-45ec-4886-8902-750e4c85cb4a)
+
 **Do while loop don't apply condition on the first count while, while loop does so**
+
+## Break and Continue Statements in loops :
+
+```C++
+#include <iostream>
+using namespace std;
+
+int main(){
+    
+   int pocketMoney = 3000; 
+   for(int date=1;date<=30;date++){
+    
+    if(date%2==0){
+        continue;
+    }
+    if (pocketMoney==0){
+        break;
+    }
+    cout<<"Go out Today"<<endl;
+    pocketMoney-=300;
+
+   }
+    return 0;
+}
+```
+
 
 
 
