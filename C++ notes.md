@@ -168,8 +168,17 @@ _OUTPUT :_
 
 ## LOOPS IN C++ :
 
+### **For Loop :**
+![image](https://github.com/Shantanu2911/Notes/assets/143939657/bfe55d05-daeb-46a7-b974-f48719c681df)
 
+### **While Loop :**
+![image](https://github.com/Shantanu2911/Notes/assets/143939657/0de6963b-cead-4dd7-8b95-0d8238ad7476)
 
+### **Do While Loop :**
+![image](https://github.com/Shantanu2911/Notes/assets/143939657/bfb74a3b-5447-4de7-8626-5600f43d7385)
+
+### **Do While Loop V/s While Loop:**
+![image](https://github.com/Shantanu2911/Notes/assets/143939657/d30cff12-45ec-4886-8902-750e4c85cb4a)
 
 
 
