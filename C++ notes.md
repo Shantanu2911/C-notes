@@ -179,6 +179,7 @@ _OUTPUT :_
 
 ### **Do While Loop V/s While Loop:**
 ![image](https://github.com/Shantanu2911/Notes/assets/143939657/d30cff12-45ec-4886-8902-750e4c85cb4a)
+**Do while loop don't apply condition on the first count while, while loop does so**
 
 
 
