@@ -45,7 +45,7 @@ C++ is a general-purpose programming language that was developed as an enhanceme
 
 ## First-Code in C++
 
-```
+```C++
 // C++ Program to display "Hello, World!"
 #include <iostream>
 using namespace std;
@@ -77,21 +77,21 @@ int main()
 - __Header File__ : The header files contain the definition of the functions and macros we are using in our program. They are defined on the top of the C++ program.
 
   Syntax :
-  ```
+  ```C++
   #include <library_name>
   ```
 
 - **Namespace** : A namespace in C++ is used to provide a scope or a region where we define identifiers. It is used to avoid name conflicts between two identifiers as only unique names can be used as identifiers.
 
   Syntax :
-  ```
+  ```C++
   using namespace std;
   ```
 
 - **Main Function** : The main function is the most important part of any C++ program. The program execution always starts from the main function. All the other functions are called from the main function. In C++, the main function is required to return some value indicating the execution status.
 
   Syntax :
-  ```
+  ```C++
   int main() {
 
     ... code ....
@@ -101,7 +101,7 @@ int main()
 - **Blocks** :  Blocks are the group of statements that are enclosed within { } braces. They define the scope of the identifiers and are generally used to enclose the body of functions and control statements.
 
   Syntax :
-  ```
+  ```C++
   {
       
   // Body of the Function
@@ -113,7 +113,7 @@ int main()
  - **Semicolons** : It is used to terminate each line of the statement of the program. When the compiler sees this semicolon, it terminates the operation of that line and moves to the next line.
 
   Syntax :
-  ```
+  ```C++
  any_statement ;
   ```
 ## __DATATYPES__ :
@@ -234,8 +234,163 @@ int main() {
 }
 
 ```
+## Switch-Case Statement
 
+```C++
+// multiple language robot
+#include <iostream>
+using namespace std;
 
+int main() {
 
+    char button;
+    cout<<"Input a character";
+    cin>>button;
 
+    // if (button=='a'){
+    //     cout<<"hello"<<endl;
+    // }
 
+    // else if (button=='b'){
+    //     cout<<"namaste"<<endl;
+    // }
+    
+    // else if (button=='c'){
+    //     cout<<"hola amigo"<<endl;
+    // }
+    
+    // else if (button=='d'){
+    //     cout<<"salut"<<endl;
+    // }
+    
+    // else if (button=='e'){
+    //     cout<<"Ciao"<<endl;
+    // }
+    
+    // else{
+    //     cout<<"I am still learning more..."<<endl;
+    // }
+
+    switch(button){
+        
+        case 'a':
+           cout<<"Hello"<<endl;
+           break;
+
+        case 'b':
+           cout<<"Namaste"<<endl;
+           break;
+        
+        case 'c':
+           cout<<"Hola amigo"<<endl;
+           break;
+        
+        case 'd':
+           cout<<"Ciao"<<endl;
+           break;
+        
+        case 'e':
+           cout<<"Salut"<<endl;
+           break;
+        
+        default:
+        cout<<"I am still learning more!"<<endl;
+           break;
+    }
+
+    return 0;
+}
+```
+
+## __Operators in C++__
+Operators are symbols that tell the computer to perform some specific operations.
+
+- **Arithematic Operators** :
+    - Binary Operators : (Done on two operands) +, -, *, /, %
+    - Unary operator : (Done on only one operands) ++, --
+       - Pre Incrementer (++a)
+       - Post Incrementer (a++)
+         ![image](https://github.com/Shantanu2911/Notes/assets/143939657/8722e684-af0f-45fe-bf2f-785826c1c8a5)
+         ![image](https://github.com/Shantanu2911/Notes/assets/143939657/8a628026-657c-47d4-891f-93a4011694d0)
+
+- **Relational Operators** :
+
+  Defines a relation between 2 operands
+  
+  Returns a boolean Value
+   (== , != , > , < , >= , <=)
+
+- **Logical Operators** :
+  
+  && AND (works similar like gate operations)
+  
+  || OR (All values are true except **0**)
+
+  ! NOT
+
+- **Bitwise Operators** :
+![image](https://github.com/Shantanu2911/Notes/assets/143939657/42a6a0bd-7f26-4229-ac0a-2139419b5f71)
+
+- **Assignment Operators** :
+   - (= , += , -= , *= , /=)
+- **Miscellaneous Operators** :
+   - Sizeof() : returns size of variable
+   - __Condition?X:Y__ : also called (*Ternary Condtional Operator*)returns value of X if condition is true or else value of Y
+   - cast : convert one datatype to another
+   - Comma(,) : Causes a sequence of operations to be performed
+   - & : (*Reference Operator*) Returns address of of a variable
+   - \* : pointer to a variable
+
+### Operators Precedence
+![image](https://github.com/Shantanu2911/Notes/assets/143939657/c0f191d3-2f3b-4010-812d-549cea4e9288)
+
+## Patterns In C++
+```C++
+//Reactangle pattern
+#include <iostream>
+using namespace std;
+
+int main(){
+    int rows,cols;
+    cout<<"Enter the rows and columns"<<endl;
+    cin>>rows>>cols;
+
+    for(int i=1;i<=rows;i++){
+        cout<<endl;
+        for(int j=1;j<=cols;j++){
+            cout<<"*";
+        }
+    }
+
+    return 0;
+}
+```
+```C++
+//Hollow Reactangle pattern
+#include <iostream>
+using namespace std;
+
+int main(){
+    int rows,cols;
+    cout<<"Enter the rows and columns"<<endl;
+    cin>>rows>>cols;
+
+    for(int i=1;i<=rows;i++){
+        cout<<endl;
+        for(int j=1;j<=cols;j++){
+            if(i==1 || i==rows){
+                cout<<"*";
+            }
+            else if(j==1 || j==cols){
+                cout<<"*";
+            }
+            else{
+                cout<<" ";
+            }
+        }
+    } 
+
+    return 0;
+}
+
+```
