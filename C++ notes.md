@@ -394,3 +394,11 @@ int main(){
 }
 
 ```
+## **Functions in C++**:
+Syntax
+```C++
+returnType functionName(parameter1,parameter2,....){
+   //function body
+}
+```
+![image](https://github.com/Shantanu2911/Notes/assets/143939657/dd6f338a-5a64-4dfc-be88-c968ec5c20c0)
