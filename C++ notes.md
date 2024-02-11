@@ -498,4 +498,121 @@ int main(){
 ## __Strings__
 <img src="https://github.com/Shantanu2911/Notes/assets/143939657/a910c6a7-4fd3-40d4-8fae-30e546d26fb2" width="70%" height="70%">
 
+- String Declaration
+```C++
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main(){
+
+    string str;
+    getline(cin,str);
+    cout<<str;
+    string str1(5,'n');
+    string str2 = "IamGay";
+
+    cout<<str2;
+    return 0;
+
+}
+```
+- Concatenation of Strings
+```C++
+  #include <iostream>
+#include <string>
+using namespace std;
+
+int main(){
+
+    string str1 = "fam";
+    string str2 = "ily";
+
+    //str1.append(str2);
+    cout<<str1 + str2<<endl;
+
+    return 0;
+
+}
+```
+- Indexing of Strings
+```C++
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main(){
+
+    string str1 = "fam";
+    string str2 = "ily";
+
+    cout<<str1[2] + str2[0]<<endl;
+
+    return 0;
+
+}
+```
+- Functions of Strings
+   - .clear( ) - clears the string
+   - .compare( ) - show the difference between string
+   - .empty( ) - check whether string is empty or not
+   - .erase(start_index,characters to erase) - erase a specific part of string
+   - .find( ) - finds a substring in a string
+   - .insert(index, substring) - insert a substring in a string
+   - .size( ) - finds size of string
+   - .substr(startindex,no. of characters) - get a substring from a string
+   - stoi( ) - changes string to integer
+   - to_string( ) - changes integer to string
+- Sorting in String
+```C++
+#include <iostream>
+#include <algorithm>
+#include <string>
+
+using namespace std;
+
+int main(){
+
+    string s1 = "qwertyuioasdfghjklzxcvbnm";
+    
+    sort(s1.begin(), s1.end());
+
+    cout<<s1<<endl;
+
+    return 0;
+
+}
+```
+
+## Recursion
+It is when a fuction call itself to make the problem smaller.
+<img src="https://github.com/Shantanu2911/Notes/assets/143939657/ee53693a-391c-4a20-ae40-088579ee5a35" width="70%" height="70%">
+
+```C++
+#include <iostream>
+using namespace std;
+
+int factorial(int n){
+    if(n==0){
+        return 1;
+    }
+
+    int prevfact = factorial(n-1);
+    return n*prevfact;
+
+}
+
+int main(){
+
+    int n;
+    cin>>n;
+
+    cout<<factorial(n)<<endl;
+
+    return 0;
+
+}
+```
+
+
 
