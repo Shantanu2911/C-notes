@@ -1,4 +1,4 @@
-# **C ++**
+![image](https://github.com/Shantanu2911/Notes/assets/143939657/9d66c35e-8baf-49ca-bb3c-550ee28af024)# **C ++**
 C++ is a general-purpose programming language that was developed as an enhancement of the C language to include object-oriented paradigm. It is an imperative and a compiled language. 
 ## Why Learn C++?
 - C++ is one of the most used and popular programming languages.
@@ -402,3 +402,100 @@ returnType functionName(parameter1,parameter2,....){
 }
 ```
 ![image](https://github.com/Shantanu2911/Notes/assets/143939657/dd6f338a-5a64-4dfc-be88-c968ec5c20c0)
+
+## Array
+Array is a list of similar datatypes.
+
+<img src="https://github.com/Shantanu2911/Notes/assets/143939657/223656f5-545b-4df4-aeb9-36c209f0bdf2" width="75%" height="75%">
+
+Syntax :
+```C++
+#include <iostream>
+using namespace std;
+
+int main(){
+
+    int n;
+    cin>>n;
+
+    int array[n];
+    for(int i=0;i<n;i++){
+        cin>>array[i];
+    }
+
+    for(int i=0;i<n;i++){
+        cout<<array[i]<<" ";
+    }
+
+    return 0;
+}
+```
+## Pointers 
+Pointers are variables that store the address of other variables.
+<img src="https://github.com/Shantanu2911/Notes/assets/143939657/e010be4f-cab1-401e-960f-b28222b54339" width="75%" height="75%">
+<img src="https://github.com/Shantanu2911/Notes/assets/143939657/a55978d9-cef0-4b9d-bad7-e6775b29fce6" width="75%" height="75%">
+
+## Pointers and Arrays
+```C++
+#include <iostream>
+using namespace std;
+
+int main(){
+
+    int arr[]={10,30,50};
+    cout<<*arr<<endl;
+
+    int* ptr = arr;
+    for(int i=0;i<3;i++){
+        cout<<*(arr+i)<<endl;
+    }
+
+}
+```
+## Pointers to Pointer
+```C++
+#include <iostream>
+using namespace std;
+
+int main(){
+
+    int a=10;
+    int* p;
+    p = &a;
+    cout << *p << endl;
+    int**q = &p;
+    cout << *q << endl;
+    cout << **q << endl;
+
+    return 0;
+
+}
+```
+## Pointers Uses in Function
+```C++
+#include <iostream>
+using namespace std;
+
+void swap(int *a,int *b){
+    int temp=*a;
+    *a = *b;
+    *b = temp;
+}
+
+
+int main(){
+
+    int a=10;
+    int b=5;
+
+    swap(&a,&b);
+    cout<<a<<" "<<b<<endl;
+
+    return 0;
+
+}
+```
+## __Strings__
+<img src="https://github.com/Shantanu2911/Notes/assets/143939657/a910c6a7-4fd3-40d4-8fae-30e546d26fb2" width="70%" height="70%">
+
+
