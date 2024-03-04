@@ -68,6 +68,14 @@ Red team exercises involve simulating real-world attacks to assess an organizati
 
 Blue teams, responsible for defending against cyber threats, can use the ATT&CK framework to improve their detection and response capabilities. By understanding the tactics and techniques commonly used by adversaries, blue teams can develop more effective strategies for threat detection, incident response, and remediation.
 
+
+
+![image](https://github.com/Shantanu2911/Notes/assets/143939657/3fc8bcc6-3174-47c3-a59c-2a1f3e8c5a15)
+
+
+![image](https://github.com/Shantanu2911/Notes/assets/143939657/bfe82ad0-7f53-4e2d-9135-8a83d46a22df)
+
+
 ## Conclusion
 
 MITRE ATT&CK provides a valuable resource for understanding, categorizing, and mitigating cyber threats. By leveraging its structured approach and comprehensive knowledge base, organizations can enhance their cybersecurity posture and better protect against evolving threats in the digital landscape.
